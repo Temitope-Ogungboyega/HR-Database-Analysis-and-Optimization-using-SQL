@@ -7,9 +7,6 @@ SET sql_safe_updates = 0;
 -- Check data types of all columns
 DESCRIBE hr;
 
--- Change ID to INT
-ALTER TABLE hr
-MODIFY COLUMN id INT;
 
 -- Change birthdate values to date
 UPDATE hr
